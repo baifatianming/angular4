@@ -1,0 +1,57 @@
+<p>
+  home works!
+  这是一个Home组件
+</p>
+<br>
+<p>
+  {{msg}}
+</p>
+
+<button (click)="getMsg()">获取属性值</button>
+
+<br>
+
+<button (click)="setName()">
+  改变username的值
+</button>
+
+<span>
+  {{username}}
+</span>
+
+<hr>
+
+<div *ngIf="flag">
+  flag=true的情况下显示
+</div>
+
+<button (click)="flag=!flag">
+  改变flag的值
+</button>
+
+<hr>
+
+<input type="text" (keyup)="keyUp($event)">
+
+<br>
+<br>
+
+<button (click)="run($event)">
+  事件对象
+</button>
+
+<br>
+<hr>
+
+<!-- 双向数据绑定 -->
+
+<input type="text" [(ngModel)]="search">
+
+{{search}}
+
+<br>
+<br>
+
+<button (click)="getSearch()">
+  获取input的值
+</button>

@@ -1,0 +1,18 @@
+<p>
+  news works!
+</p>
+
+<button (click)="requestData()">http请求数据</button>
+
+<button (click)="requestJsonpData()">jsonp请求数据</button>
+
+<app-header [msg]="msg" (toParent)="requestData($event)"></app-header>
+
+<br>
+<hr>
+
+<app-footer [msg]="msg" [run]="run" [getDataFromChild]="getDataFromChild"></app-footer>
+
+<hr>
+
+父组件

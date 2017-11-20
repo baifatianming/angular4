@@ -1,0 +1,25 @@
+{
+    "result": [
+        {
+            "name":"张三",
+            "age":18,
+            "sex": "male"
+        },
+        {
+            "name":"张三",
+            "age":18,
+            "sex": "male"
+        },
+        {
+            "name":"张三",
+            "age":18,
+            "sex": "male"
+        },
+        {
+            "name":"张三",
+            "age":18,
+            "sex": "male"
+        }
+    ]
+
+}
